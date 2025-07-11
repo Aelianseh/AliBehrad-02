@@ -2,9 +2,9 @@ name: test01
 
 on:
   push:
-    branches: [ first-branch ]
+    branches: [ first ]
   pull_request:
-    branches: [ first-branch ]
+    branches: [ first ]
 
 jobs:
   build-and-test:

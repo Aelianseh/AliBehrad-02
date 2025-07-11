@@ -2,7 +2,7 @@ name: ZIP
 
 on:
   push:
-    branches: [ first-branch ]
+    branches: [ first ]
 
 permissions:
   contents: write
