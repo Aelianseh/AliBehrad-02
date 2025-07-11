@@ -1,0 +1,29 @@
+name: ZIP
+
+on:
+  push:
+    branches: [ first-branch ]
+
+permissions:
+  contents: write
+
+jobs:
+  zip-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create ZIP file (exclude node_modules, .git, workflows)
+        run: |
+          zip -r react-project.zip . -x "node_modules/" ".git/" ".github/**"
+
+      - name: Upload ZIP as GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: zip-${{ github.run_id }}
+          name: Auto Release ${{ github.run_id }}
+          files: react-project.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,46 @@
+.exp {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-image: url("./../../Assets/IMGs/03.jpg");
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+
+
+}
+
+.exp p {
+    padding: 25px;
+
+}
+
+.matn {
+    display: flex;
+}
+
+.divs {
+    width: 50%;
+    background-color: #4074f7;
+    opacity: 0.75;
+    margin: 20px;
+    padding: 0;
+    border-radius: 25px;
+}
+
+.matn p {
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    /* text-shadow: 2px 2px #ffffff; */
+}
+
+.soft {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}

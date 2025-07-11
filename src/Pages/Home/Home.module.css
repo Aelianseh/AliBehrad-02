@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.fild {
+    border-radius: 25px;
+    background-image: url(./../../Assets/IMGs/05.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}

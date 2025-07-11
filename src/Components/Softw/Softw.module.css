@@ -1,0 +1,30 @@
+.soft {
+    width: 30%;
+    /* background-color: red; */
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.softZir {
+    /* background-color: yellow; */
+    height: auto;
+    /* width: 100%; */
+    /* box-sizing: border-box;
+    padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.softZir img{
+    width: 50%;
+    height: 40px;
+}
+
+.softZirMatn{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}

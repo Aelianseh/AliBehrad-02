@@ -1,0 +1,29 @@
+name: test01
+
+on:
+  push:
+    branches: [ first-branch ]
+  pull_request:
+    branches: [ first-branch ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run tests
+      run: npm test -- --watchAll=false --passWithNoTests
+
+    - name: Build project
+      run: npm run build
