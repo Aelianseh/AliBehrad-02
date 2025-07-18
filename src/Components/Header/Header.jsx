@@ -14,11 +14,16 @@ function Header(probs) {
 
 
                     <li>
-                    <Link to="aboutme">AboutMe
+                        <Link to="/aboutme">AboutMe
                         </Link>
-                        </li>
-                    <li>Linkedin</li>
-                    <li>E-mail</li>
+                    </li>
+                    <li>
+                        <Link to="/linkedin">Linkedin</Link>
+                    </li>
+                    <li>
+                        <Link to="/email">E-mail
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,11 +1,12 @@
+import Axx from "../Axx/Axx"
 import stylez from "./Intro.module.css"
-import imgx from "./../../Assets/IMGs/AliBehrad.jpg"
+
 function Intro() {
     return (
         <div className="container">
             <div className={stylez.flx}>
                 <div className={stylez.left}>
-                    <img src={imgx} alt="" />
+                    <Axx />
                 </div>
                 <div className={stylez.right}>
                     <p>
