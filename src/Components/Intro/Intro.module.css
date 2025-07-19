@@ -6,6 +6,7 @@
     border-radius: 25px;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .flx::before {
@@ -42,7 +43,7 @@
 
 .right {
     width: 85%;
-    height: 200px;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -55,3 +56,24 @@
     text-align: justify;
     color: #F5F5F5;
 }
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .flx {
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+        height: auto;
+    }
+
+    .right p {
+        line-height: 30px;
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {}
