@@ -22,17 +22,7 @@ function Expn() {
                 <Title title="My Carrier" />
                 <div className={stylez.matn}>
                     <div className={stylez.divs}>
-                        <p>
-                            I have 12 years of experience as a Piping Engineer, specializing in refinery
-                            and petrochemical projects. My expertise encompasses piping design,
-                            layout, and installation, with a strong focus on real-world engineering applications.
-                            My portfolio features detailed drawings, software modeling, and adherence to industry codes.
-                            As a committed Piping Engineer, I possess extensive experience in designing, modeling,
-                            and implementing piping systems for large-scale refinery and petrochemical facilities.
-                            My technical skills include creating isometric drawings, reviewing PIDs, selecting materials,
-                            and ensuring compliance with international standards such as:
-                            ASME B31.3, ASME B31.1, API 610 , API 650 , ... .
-                        </p>
+                        <p>I have 12 years of experience as a Piping Engineer, specializing in refinery and petrochemical projects. My expertise encompasses piping design, layout, and installation, with a strong focus on real-world engineering applications. My portfolio features detailed drawings, software modeling, and adherence to industry codes. As a committed Piping Engineer, I possess extensive experience in designing, modeling, and implementing piping systems for large-scale refinery and petrochemical facilities. My technical skills include creating isometric drawings, reviewing PIDs, selecting materials, and ensuring compliance with international standards such as: ASME B31.3, ASME B31.1, API 610 , API 650 , ... .</p>
                     </div>
                     <div className={stylez.divs}>
                         <p>Tools i work with:</p>

@@ -18,13 +18,21 @@
     align-items: center;
 }
 
-.softZir img{
+.softZir img {
     width: 50%;
     height: 40px;
 }
 
-.softZirMatn{
+.softZirMatn {
     padding: 0;
     margin: auto;
     text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .soft {
+        width: 44%;
+    }
+
 }
