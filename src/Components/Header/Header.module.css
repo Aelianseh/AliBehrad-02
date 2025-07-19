@@ -9,7 +9,7 @@
 .navmenu {
     display: flex;
     list-style: none;
-    background-color: yellow;
+
 }
 
 .navmenu li {
@@ -33,31 +33,49 @@
 @media screen and (max-width: 525px) {
 
     .menuIcon {
-        display: block;
+        display: flex;
     }
+
+    .menuIcon svg {
+        /* background-color: red; */
+        width: 40px;
+    }
+
+    
 
     .navmenu {
         display: none;
+        border-radius: 10px;
+        font-weight: bold;
+        /* color: #505050; */
     }
 
     .humbopen {
-        background-color: yellow;
+        /* background-color: yellow; */
         display: flex;
         flex-direction: column;
-        /* z-index: 2; */
-        width: 40px;
+        width: auto;
+        /* color: red; */
 
     }
 
     .humbopen li {
         margin: 5px 0;
         font-size: 12px;
-        z-index: 2;
+        margin-right: 0 !important;
+
     }
+
+    .humbopen a {
+        display: flex;
+        justify-content: center;
+    }
+
 
     .header {
         display: block;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -70,8 +88,10 @@
 
     .navmenuwrap {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
+        z-index: 2;
+        position: relative;
     }
 
     .header {
