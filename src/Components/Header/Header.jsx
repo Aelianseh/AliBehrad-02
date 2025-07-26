@@ -12,7 +12,6 @@ function Header() {
     // console.log(menuOpen);
 
     return (
-
         <div>
             <div className={style.header}>
                 <div className="container">
@@ -20,11 +19,9 @@ function Header() {
                         {menuOpen ? <FaTimesCircle /> :
                             <TiThMenuOutline />
                         }
-
                         <div>
                             {/* {`${console.log(menuOpen)}`} */}
                         </div>
-
                     </div>
                     <div className={style.navmenuwrap}>
                         <ul className={`${style.navmenu}  ${menuOpen ? style.humbopen : ""}`}>
@@ -33,14 +30,7 @@ function Header() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/aboutme">AboutMe
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/linkedin">Linkedin</Link>
-                            </li>
-                            <li>
-                                <Link to="/email">E-mail
+                                <Link to="/Education">Education
                                 </Link>
                             </li>
                         </ul>
@@ -48,7 +38,6 @@ function Header() {
                 </div>
             </div>
         </div>
-
     )
 }
 export default Header;

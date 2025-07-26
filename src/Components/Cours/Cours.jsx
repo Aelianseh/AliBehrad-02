@@ -1,6 +1,6 @@
 import Axx from "../Axx/Axx";
-import style from "./Educ.module.css"
-function Educ() {
+import style from "./Cours.module.css"
+function Cours () {
     return (
         <div className={style.backcolor}>
             <div className="container">
@@ -35,4 +35,4 @@ function Educ() {
     )
 }
 
-export default Educ;
+export default Cours;
