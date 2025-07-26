@@ -6,6 +6,20 @@
     background-color: #4074f7;
 }
 
+.headerWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.navmenuwrap {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
 .navmenu {
     display: flex;
     list-style: none;
@@ -15,6 +29,8 @@
 .navmenu li {
     font-size: 20px;
     margin-right: 40px;
+    display: flex;
+    justify-content: start;
 }
 
 .menuIcon {
@@ -22,6 +38,7 @@
     font-size: 24px;
     cursor: pointer;
     color: white;
+
 }
 
 .open {
@@ -41,13 +58,17 @@
         width: 40px;
     }
 
-    
-
     .navmenu {
         display: none;
         border-radius: 10px;
         font-weight: bold;
-        /* color: #505050; */
+        z-index: 2;
+        position: absolute;
+        top: 40px;
+        left: 60px;
+        background-color: rgba(79, 84, 87, 0.5);
+        padding: 5px;
+        margin-top: 10px;
     }
 
     .humbopen {
@@ -73,29 +94,13 @@
 
 
     .header {
-        display: block;
+        justify-content: start;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
     .navmenu li {
         margin-right: 40px;
     }
-}
-
-@media screen and (max-width: 1300px) {
-
-    .navmenuwrap {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        z-index: 2;
-        position: relative;
-    }
-
-    .header {
-        justify-content: center;
-    }
-
 }

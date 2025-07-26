@@ -12,29 +12,26 @@ function Header() {
     // console.log(menuOpen);
 
     return (
-        <div>
-            <div className={style.header}>
-                <div className="container">
+        <div className={style.header}>
+            <div className="container">
+                <div className={style.headerWrapper}>
                     <div className={style.menuIcon} onClick={toggleMenu}>
                         {menuOpen ? <FaTimesCircle /> :
                             <TiThMenuOutline />
                         }
-                        <div>
-                            {/* {`${console.log(menuOpen)}`} */}
-                        </div>
                     </div>
-                    <div className={style.navmenuwrap}>
-                        <ul className={`${style.navmenu}  ${menuOpen ? style.humbopen : ""}`}>
-                            <li>
-                                <Link to="/">HOME
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/Education">Education
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div className={style.navmenuwrap}>
+                    <ul className={`${style.navmenu} ${menuOpen ? style.humbopen : ""}`}>
+                        <li>
+                            <Link to="/">HOME
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/Education">EDUCATION
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
