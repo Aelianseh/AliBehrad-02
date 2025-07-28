@@ -8,6 +8,10 @@
     border-radius: 25px;
 }
 
+.fields:hover {
+    /* background-color: #f0f8ff; */
+    transform: scale(1.04);
+}
 
 .fieldsDiv img {
     /* background-color: blue; */
