@@ -2,10 +2,12 @@
     display: flex;
     margin-top: 10px;
     justify-content: center;
+    align-items: center;
     padding: 10px;
     border-radius: 25px;
-     position: relative;
+    position: relative;
     z-index: 1;
+    /* background-color: yellow; */
 }
 
 .backcolor {
@@ -37,6 +39,8 @@
 
 .left {
     width: 15%;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
 .leftp {
@@ -58,7 +62,7 @@
     overflow: hidden;
 }
 
-.right::before {
+.educ::before {
     content: "";
     background-image:
         linear-gradient(rgb(86 70 198 / 50%), rgb(161 171 192 / 50%)),
@@ -84,4 +88,21 @@
 .right h4 {
     color: rgb(5, 59, 235);
     margin-left: 20px;
+}
+
+
+@media screen and (max-width: 765px) {
+    .educ {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 25%;
+        z-index: 1;
+    }
+
+    .leftp {
+        text-align: center;
+    }
+
 }

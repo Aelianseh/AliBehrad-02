@@ -8,7 +8,7 @@ function Cours () {
                     <div className={style.left}>
                         <Axx />
                         <div className={style.leftp}>
-                            Birth =	1986
+                            Birth 1986
                         </div>
                     </div>
                     <div className={style.right}>
