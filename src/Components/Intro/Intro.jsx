@@ -4,7 +4,7 @@ import stylez from "./Intro.module.css"
 
 function Intro() {
     return (
-        <section id="abqout me">
+        <section id="me">
             <div className="container">
                 <div className={stylez.flx}>
                     <div className={stylez.left}>

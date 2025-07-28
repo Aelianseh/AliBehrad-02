@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import style from "./Navbar.module.css";
 
-const sections = ['about me', 'fields of interests', 'my career', 'Works'];
+const sections = ['me', 'fields of interests', 'my career', 'Works'];
 
 function Navbar() {
-    const [activeSection, setActiveSection] = useState('about me');
+    const [activeSection, setActiveSection] = useState('me');
 
     useEffect(() => {
         const handleScroll = () => {
-            let current = 'about me';
+            let current = 'me';
             sections.forEach((id) => {
                 const section = document.getElementById(id);
                 if (section && window.scrollY >= section.offsetTop - 80) {
