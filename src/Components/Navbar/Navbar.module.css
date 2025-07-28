@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.navList button {
+    /* background: none; */
+    /* border: none; */
+    margin: 0 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #949090;
+    /* background-color: red; */
+}
+
+.navList button.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    background-color: yellow;
+}
