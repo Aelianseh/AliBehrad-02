@@ -2,6 +2,9 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    border-radius: 25px;
+    margin-top: 10px;
+
 }
 
 .flx::before {
