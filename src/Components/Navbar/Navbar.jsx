@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import style from "./Navbar.module.css";
 
-const sections = ['me', 'fields', 'career', 'Works'];
+const sections = ['me', 'interests', 'career', 'Works'];
 
 function Navbar() {
     const [activeSection, setActiveSection] = useState(["Me"]);

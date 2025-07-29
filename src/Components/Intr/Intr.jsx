@@ -16,10 +16,10 @@ function Intr() {
 
     }, []);
     return (
-        <section id="fields">
+        <section id="interests">
             <div className="container">
                 <div className={stylez.fild}>
-                    <Title title="Field of Interests" />
+                    <Title title="interests" />
                     <div className={stylez.home}>
                         {Fild.map((res) => (<Fields key={res.id} result={res} />))}
                     </div>
