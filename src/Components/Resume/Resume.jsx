@@ -6,7 +6,7 @@ function Resume() {
         <section id="Works">
             <div className="container">
                 <div className={stylez.title}>
-                    <Title title="work" />
+                    <Title title="works" />
                     <div className={stylez.matn}>
                         <div className={stylez.matn}>
                             <div className={stylez.row}>
