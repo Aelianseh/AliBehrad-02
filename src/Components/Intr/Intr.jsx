@@ -16,7 +16,7 @@ function Intr() {
 
     }, []);
     return (
-        <section id="fields of interests">
+        <section id="fields">
             <div className="container">
                 <div className={stylez.fild}>
                     <Title title="Field of Interests" />

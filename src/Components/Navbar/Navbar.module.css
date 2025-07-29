@@ -1,33 +1,37 @@
 .navbar {
     position: fixed;
-    top: 0;
-    width: 100%;
-    background: #fff;
+    top: 60px;
+    right: -16px;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navList {
     display: flex;
+    flex-direction: column;
     list-style: none;
     justify-content: center;
-    padding: 1rem;
+    /* padding: 1rem; */
     margin: 0;
 }
 
+.navList li {
+    margin-bottom: 10px;
+}
+
 .navList button {
-    /* background: none; */
-    /* border: none; */
     margin: 0 1rem;
     padding: 0.5rem;
     cursor: pointer;
     font-weight: bold;
-    color: #949090;
-    /* background-color: red; */
+    color: #2a58ff;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border: none;
 }
 
 .navList button.active {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
-    background-color: yellow;
+    color: #ffffff;
+    /* border-bottom: 2px solid #007bff; */
+    background-color: rgb(0, 0, 0);
 }

@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import style from "./Navbar.module.css";
 
-const sections = ['me', 'fields of interests', 'my career', 'Works'];
+const sections = ['me', 'fields', 'career', 'Works'];
 
 function Navbar() {
-    const [activeSection, setActiveSection] = useState('me');
+    const [activeSection, setActiveSection] = useState(["Me"]);
 
     useEffect(() => {
+        setActiveSection("me");
+
         const handleScroll = () => {
-            let current = 'me';
-            sections.forEach((id) => {
-                const section = document.getElementById(id);
-                if (section && window.scrollY >= section.offsetTop - 80) {
-                    current = id;
+            let current
+            // = 'me';
+            sections.forEach((yd) => {
+
+                const part = document.getElementById(yd);
+                if (part && window.scrollY >= part.offsetTop - 80) {
+                    current = yd;
                 }
             });
             setActiveSection(current);
@@ -22,8 +26,8 @@ function Navbar() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const handleClick = (id) => {
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    const handleClick = (yd) => {
+        document.getElementById(yd).scrollIntoView({ behavior: 'smooth' });
     };
 
     return (

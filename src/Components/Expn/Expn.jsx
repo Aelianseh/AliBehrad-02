@@ -17,7 +17,7 @@ function Expn() {
 
     }, [])
     return (
-        <section id="my career">
+        <section id="career">
             <div className="container">
                 <div className={stylez.exp}>
                     <Title title="My Carrier" />
