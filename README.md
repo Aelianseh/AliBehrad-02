@@ -1,3 +1,3 @@
 # AliBehrad-02
-npm install
-npm start
+#npm install
+#npm start
