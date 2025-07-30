@@ -5,11 +5,11 @@ import stylez from "./Intro.module.css"
 
 function Intro() {
     return (
-        <section id="me">
+        <section id="hi">
             <div className="container">
                 <div className={stylez.flx}>
                     <div>
-                        <Title title="Me" />
+                        <Title title="Hi!" />
                     </div>
                     <div className={stylez.wrap}>
                         <div className={stylez.left}>

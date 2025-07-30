@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import style from "./Navbar.module.css";
 
-const sections = ['me', 'interests', 'career', 'Works'];
+const sections = ['hi', 'interests', 'career', 'Works'];
 
 function Navbar() {
-    const [activeSection, setActiveSection] = useState(["Me"]);
+    const [activeSection, setActiveSection] = useState(["hi"]);
 
     useEffect(() => {
-        setActiveSection("me");
+        setActiveSection("hi");
 
         const handleScroll = () => {
             let current
-            // = 'me';
+            // = 'hi';
             sections.forEach((yd) => {
 
                 const part = document.getElementById(yd);
