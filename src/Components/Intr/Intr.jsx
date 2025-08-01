@@ -9,7 +9,9 @@ function Intr() {
     const [Fild, setFild] = useState([])
     // console.log(Fild);
     useEffect(() => {
-        axios.get("http://localhost:8000/interests").then((ints) => {
+        // axios.get("http://localhost:8000/interests").then((ints) => {
+        axios.get("/api/db-logo").then((res) => {
+
             // console.log(ints.data.data);
             setFild(ints.data.data)
         }).catch((err) => { console.log("errrrrrrroooorrr"); })

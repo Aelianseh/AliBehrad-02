@@ -8,7 +8,9 @@ function Expn() {
     const [Soft, setSoft] = useState([])
     // console.log(Soft);
     useEffect(() => {
-        axios.get("http://localhost:7000/logos").then((res) => {
+        // axios.get("http://localhost:7000/logos").then((res) => {
+        axios.get("/api/db-json").then((res) => {
+
             setSoft(res.data.data)
             // console.log(Soft.data.data);
 
