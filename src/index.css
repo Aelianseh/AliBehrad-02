@@ -6,11 +6,22 @@ body {
   font-family: cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background 2s, color 0.3s;
 }
 
-html{
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+
+
+
+html {
   scroll-behavior: smooth;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
