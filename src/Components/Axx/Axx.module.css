@@ -1,0 +1,14 @@
+.leftaxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    height: auto;
+    /* background-color: red; */
+}
+
+.leftaxx img {
+    border-radius: 100%;
+    width: 100%;
+}

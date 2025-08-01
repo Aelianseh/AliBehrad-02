@@ -1,0 +1,34 @@
+import Title from "../Title/Title"
+import stylez from "./Resume.module.css"
+
+function Resume() {
+    return (
+        <section id="Works">
+            <div className="container">
+                <div className={stylez.title}>
+                    <Title title="works" />
+                    <div className={stylez.matn}>
+                        <div className={stylez.matn}>
+                            <div className={stylez.row}>
+                                <div className={stylez.company}>ABOLFARES OIL REFINING</div>
+                                <div className={stylez.duration}>2024 - Now</div>
+                            </div>
+                            <div className={stylez.row}>
+                                <div className={stylez.company}>Enerchimi</div>
+                                <div className={stylez.duration}>2020 - 2024</div>
+                            </div>
+                            <div className={stylez.row}>
+                                <div className={stylez.company}>MAPNA</div>
+                                <div className={stylez.duration}>2013 - 2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    )
+}
+export default Resume

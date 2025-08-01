@@ -1,0 +1,85 @@
+.flx {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.flx::before {
+    content: "";
+    background-image:
+        linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+        url("./../../Assets/IMGs/04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+}
+
+.flx>* {
+    position: relative;
+    z-index: 1;
+}
+
+.wrap {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.left {
+    width: 15%;
+}
+
+.left img {
+    height: 100%;
+    border-radius: 100px;
+}
+
+.right {
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.right p {
+    padding: 10px;
+    font-size: 23px;
+    text-shadow: 2px 0 black;
+    line-height: 45px;
+    text-align: justify;
+    color: #F5F5F5;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+        height: auto;
+    }
+
+    .right p {
+        line-height: 30px;
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {}
