@@ -9,6 +9,7 @@ function Darklight() {
     };
 
     useEffect(() => {
+
         if (islight) {
             document.body.classList.add("dark");
             console.log(islight);
@@ -17,6 +18,8 @@ function Darklight() {
             document.body.classList.remove("dark");
         }
     }, [islight])
+
+
     return (
         <div className={style.wrapper}>
             <button onClick={lightToggle} className={`${islight ? style.active : style.noactive}`}>
