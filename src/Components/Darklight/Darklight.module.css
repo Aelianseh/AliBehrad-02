@@ -1,0 +1,30 @@
+.wrapper {
+    /* background-color: red; */
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.active {
+    border-radius: 5px;
+    border: 2px solid yellow;
+    background-color: black;
+    color: white;
+
+}
+
+
+.noactive {
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+
+}

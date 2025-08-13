@@ -1,0 +1,32 @@
+{
+    "logos": {
+        "status": true,
+        "data": [
+            {
+                "id": 1,
+                "imageurl": "/PDMS-logo.png",
+                "title": "PDMS"
+            },
+            {
+                "id": 2,
+                "imageurl": "/CAESARII-logo.jpg",
+                "title": "CAESARII"
+            },
+            {
+                "id": 3,
+                "imageurl": "/AUTOCAD-logo.png",
+                "title": "AUTOCAD"
+            },
+            {
+                "id": 4,
+                "imageurl": "/Excel-logo.png",
+                "title": "EXCEL for BOM"
+            },
+            {
+                "id": 5,
+                "imageurl": "/NAVIS-logo.png",
+                "title": "NAVISWORK"
+            }
+        ]
+    }
+}
